@@ -5,7 +5,7 @@ float Rata_rata(float a, float b){
     return (a+b)/2;
 }
 
-    string Status_lulus(float r){
+    string Status_lulus1(float r){
         if (r >= 60)
             return "Lolos"; 
         else
@@ -33,8 +33,8 @@ int main(){
     //else
     // status "Gagal";
     rerata = Rata_rata(nilBI,nilMT); 
-    //status = Status_lulus(rerata);
+    //status = Status_lulus1(rerata);
 
-    cout << "Status kelulusan = "<<Status_lulus(rerata)<<" ,dengan nilai rerata = "<<rerata<<endl;
-    
+    cout << "Status kelulusan = "<<Status_lulus1(rerata)<<" ,dengan nilai rerata = "<<rerata<<endl;
+
 }
